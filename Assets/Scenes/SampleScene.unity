@@ -653,7 +653,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.73, y: 0.73}
+    oldSize: {x: 1.03, y: 1.21}
     newSize: {x: 0.73, y: 0.73}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -740,7 +740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78968919}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.71, y: 2.47, z: 0}
+  m_LocalPosition: {x: 4.71, y: 2.97, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 1433819396}
@@ -5717,17 +5717,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8883818491591261856, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: m_Radius
+      value: 4.774717
+      objectReference: {fileID: 0}
     - target: {fileID: 8883818491591261857, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
       propertyPath: DeathMenuCanvas
       value: 
       objectReference: {fileID: 523715631}
+    - target: {fileID: 8883818491591261861, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883818491591261861, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: maxSpeed
+      value: 4.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883818491591261861, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: whenCloseToDestination
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883818491591261861, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: slowdownDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883818491591261862, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: m_GravityScale
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883818491591261862, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 8883818491591261863, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.7052617
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 8883818491591261863, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1699317
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8883818491591261863, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5789,5 +5817,13 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 78968923}
+    - target: {fileID: 8883818491591261867, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883818491591261867, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
+      propertyPath: m_Radius
+      value: 4.383847
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20b3f7494d1a73d4b8c7d2781a81e108, type: 3}
