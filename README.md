@@ -1,11 +1,11 @@
 # 2D-Portal-Platformer
 (Abandoned) project of mine.  
 2D Portal Platformer made with Unity. Written in C#.  
-![Title Screen](/assets/png/title_screen.png)
+![Title Screen](/Assets/png/title_screen.png)
 
 ## Idea of the game:
 You are a player that can spawn two portals. If you or other objects pass through a portal they will spawn in the next portal.  
-![Portals](/assets/png/portals.png)
+![Portals](/Assets/png/portals.png)
 
 ## What i learned from this project:
 - Further developed my C# coding skills
@@ -15,6 +15,6 @@ You are a player that can spawn two portals. If you or other objects pass throug
 - Enemy Pathfinding using the [A* Pathfinding Project](https://www.arongranberg.com/astar/features).
 
 ## Some pictures
-![EnemyAI](/assets/png/EnemyAI.png)
-![Animation](/assets/png/animations.png)
-![Tile Palette](/assets/png/tile_palette.png)
+![EnemyAI](/Assets/png/EnemyAI.png)
+![Animation](/Assets/png/animations.png)
+![Tile Palette](/Assets/png/tile_palette.png)
